@@ -1,0 +1,2 @@
+1. the bug is that the current code is storing the inputs as strings so when we add the two inputs together we just get a concatenated string back. The debugger showed the type of result as string too.
+2. I would fix it by trying to convert the paramters into numbers. if I can't then return false. If I can, I will then add those numbers and return that. screenshot attached.
